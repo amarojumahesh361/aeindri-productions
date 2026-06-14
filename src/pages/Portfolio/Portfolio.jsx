@@ -29,11 +29,11 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "Silent Horizon",
-      category: "Photography",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
+      title: "Saranam Ayyappa",
+      category: "Video Song",
+      image: "https://i.postimg.cc/D0xryV9b/Jn-Lr-W819t-SM-HD.jpg",
       year: "2025",
-      client: "Editorial Magazine",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/JnLrW819tSM"
     },
     {
@@ -42,7 +42,7 @@ export default function Portfolio() {
       category: "Commercial",
       image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=800&auto=format&fit=crop",
       year: "2024",
-      client: "Zenith Motors",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
     },
     {
@@ -51,7 +51,7 @@ export default function Portfolio() {
       category: "Corporate",
       image: "https://images.unsplash.com/photo-1542744094-3a31f103e35f?q=80&w=800&auto=format&fit=crop",
       year: "2024",
-      client: "Aura Global",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
     },
     {
@@ -60,7 +60,7 @@ export default function Portfolio() {
       category: "Videography",
       image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
       year: "2025",
-      client: "Sony Music",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
     },
     {
@@ -69,7 +69,7 @@ export default function Portfolio() {
       category: "Events",
       image: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800&auto=format&fit=crop",
       year: "2024",
-      client: "TechCon Org",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
     },
     {
@@ -78,7 +78,7 @@ export default function Portfolio() {
       category: "Commercial",
       image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=800&auto=format&fit=crop",
       year: "2024",
-      client: "Elysian Labs",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
     },
     {
@@ -87,7 +87,7 @@ export default function Portfolio() {
       category: "Videography",
       image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
       year: "2023",
-      client: "Travel Channel",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
     },
     {
@@ -96,7 +96,7 @@ export default function Portfolio() {
       category: "Corporate",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
       year: "2024",
-      client: "Apex Industries",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
     },
     {
@@ -105,7 +105,7 @@ export default function Portfolio() {
       category: "Events",
       image: "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=800&auto=format&fit=crop",
       year: "2025",
-      client: "Vibe Festival",
+      client: "SANTHOSH",
       videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
     }
   ];
