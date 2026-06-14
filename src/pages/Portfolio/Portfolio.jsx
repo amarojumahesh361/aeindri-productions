@@ -11,6 +11,21 @@ export default function Portfolio() {
 
   useDocumentTitle("Portfolio");
 
+  const getEmbedUrl = (url) => {
+    if (!url) return "";
+    if (url.includes("/embed/")) {
+      return url.includes("?") ? `${url}&autoplay=1` : `${url}?autoplay=1`;
+    }
+    
+    let videoId = "";
+    const match = url.match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/i);
+    if (match && match[1]) {
+      videoId = match[1];
+    }
+    
+    return videoId ? `https://www.youtube.com/embed/${videoId}?autoplay=1` : url;
+  };
+
   const projects = [
     {
       id: 1,
@@ -19,7 +34,7 @@ export default function Portfolio() {
       image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
       year: "2025",
       client: "Editorial Magazine",
-      videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U"
+      videoUrl: "https://www.youtube.com/embed/JnLrW819tSM"
     },
     {
       id: 2,
@@ -219,7 +234,7 @@ export default function Portfolio() {
                 <iframe
                   title="Portfolio Showcase Video"
                   className="w-full h-full"
-                  src={`${selectedVideo}?autoplay=1`}
+                  src={getEmbedUrl(selectedVideo)}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
